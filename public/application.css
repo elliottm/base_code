@@ -1,0 +1,62 @@
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 875px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#menu {
+	position: fixed;
+	width: 100px;
+	margin: 20px;
+}
+
+#logo {
+   display: block;
+   width: 100px;	
+   height: 100px;
+   background-color: white;
+   background-size: 12px 8px;
+}
+
+#expand {
+	height: 17px;
+	margin-top: 1px;
+	background-color: blue;
+}
+
+.click_menu {
+ 
+  padding-left: 0;
+  width: 100%;
+  height: 17px;
+  margin-top: 1px;
+  background-color: blue;
+}
+
+.click_menu li, a {
+  display: block;
+  background-color: blue;
+  margin-top: 1px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.second_page {
+  position: relative;
+  background-color: blue;
+  margin-top: 875px;
+}
+
+.slide {
+	background-color: blue;
+	margin-top: 875px;
+	min-height: 875px;
+}
+
+
+
